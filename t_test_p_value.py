@@ -8,8 +8,7 @@ Created on Sun Oct 14 17:17:59 2018
 
 from pandas import read_csv
 from scipy.stats import ttest_ind
-from matplotlib import pyplot
-from scipy import stats
+
 # load results1
 result1 = read_csv('Sig1.csv', header=None)
 values1 = result1.values[:,0]
